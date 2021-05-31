@@ -1,0 +1,194 @@
+.top img{
+    width:40vw;
+    margin: 10vw 20vw;
+}
+.top p{
+    display: none;
+}
+.top h1{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    padding: 0.6rem;
+    display: block;
+}
+#b{
+    background-image: linear-gradient(to right ,darkgreen,lightgray);
+    padding:0px;
+    text-align: center;
+   
+}
+label{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+div input{
+    width:90%;
+    
+}
+.child1
+{
+    background-color:darkgray ;
+    border-radius: 0.3rem;
+    margin:0.3rem;
+    padding:0.3rem;
+}
+.child2
+{
+    background-color:indianred ;
+    border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+}
+.child3
+{
+    background-color:rgb(150, 138, 226);
+    border-radius: 0.3rem;
+    margin:0.3rem;
+    padding:0.3rem;
+}
+#col{
+    color:lightgray;
+}
+@media screen and (min-width:768px) {
+     .top p{
+        font-size: 1.5vw;
+        display: inline;
+        margin: 4vw 1vw;
+    }
+    .top h1{
+        font-size:4vw;
+        margin:auto;
+    }
+    .top{
+        display: flex;
+    }
+    .top img{
+        width:5vw;
+        margin: 1vw 0vw;
+    }
+ 
+    a{
+        padding: 30px;
+        display: inline;
+    }
+    #link{
+        text-align: center;
+        padding: 30px;
+    }
+    #b{
+        background-image: linear-gradient(to right ,darkgreen,lightgray);
+        padding:0px;
+        
+       
+    }
+    label{
+        text-align: left;
+    }
+    input{
+        width:90%;
+        
+    }
+    h1{
+        text-align: center;
+    }
+    .child
+{
+    display:flex;
+}
+    .child1
+    {
+        background-color:darkgray ;
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+    .child2
+    {
+        background-color:indianred ;
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+    .child3
+    {
+        background-color:rgb(150, 138, 226);
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+    #col{
+        color:lightgray;
+    }
+    
+}
+@media screen and (min-width:1020px) {
+    .top p{
+        font-size: xx-small;
+        display: inline;
+    }
+    .top h1{
+        margin: auto;
+        font-size:50px;
+    }
+    .top{
+        display: flex;
+    }
+    .top img{
+        width:50px;
+        margin: 1px 10px;
+    }
+    a{
+        padding: 60px;
+    }
+    #link{
+        
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    #b{
+        background-image: linear-gradient(to right ,darkgreen,lightgray);
+        padding:0px;
+       
+    }
+    label{
+        text-align: left;
+    }
+    input{
+        width:90%;
+        
+    }
+    .child
+{
+    display:flex;
+}
+    .child1
+    {
+        background-color:darkgray ;
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+    .child2
+    {
+        background-color:indianred ;
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+    .child3
+    {
+        background-color:rgb(150, 138, 226);
+        border-radius: 0.3rem;
+        margin:0.3rem;
+        padding:0.3rem;
+    }
+ #col{
+        color:lightgray;
+    }
+    
+}
